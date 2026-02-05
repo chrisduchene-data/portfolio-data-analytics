@@ -71,8 +71,32 @@ df.loc[mask, "net_revenue"] = df.loc[mask, "gross_revenue"] - df.loc[mask, "prom
 out = "p1_daily_revenue_raw.csv"
 df.to_csv(out, index=False)
 print(f"Saved: {out} | rows={len(df)}")
+# -------------------------
+# Create a CLEAN version for Power BI
+# -------------------------
 
+clean = df.copy()
 
+# Fix negative values (set to 0 and recompute net)
+neg_mask = clean["gross_revenue"] < 0
+clean.loc[neg_mask, "gross_revenue"] = 0
+clean.loc[neg_mask, "net_revenue"] = clean.loc[neg_mask, "gross_revenue"] - clean.loc[neg_mask, "promo_cost"]
 
+# Remove exact duplicate rows (from the double-load)
+clean = clean.drop_duplicates()
 
+# Add a simple flag for “was duplicated” (optional but great for BI)
+key_cols = ["revenue_date", "property", "department", "gross_revenue", "promo_cost", "net_revenue", "transactions", "source_system"]
+dup_flags = df.duplicated(subset=key_cols, keep="first")
+df_with_flags = df.copy()
+df_with_flags["is_duplicate"] = np.where(dup_flags, "Yes", "No")
 
+# Export clean dataset
+clean_out = "01_problem-revenue-integrity/outputs/clean_revenue_data.csv"
+clean.to_csv(clean_out, index=False)
+print(f"Saved: {clean_out} | rows={len(clean)}")
+
+# Export flagged dataset (optional)
+flag_out = "01_problem-revenue-integrity/outputs/revenue_with_duplicate_flags.csv"
+df_with_flags.to_csv(flag_out, index=False)
+print(f"Saved: {flag_out} | rows={len(df_with_flags)}")
