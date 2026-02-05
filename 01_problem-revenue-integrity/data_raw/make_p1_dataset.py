@@ -71,3 +71,7 @@ df.loc[mask, "net_revenue"] = df.loc[mask, "gross_revenue"] - df.loc[mask, "prom
 out = "p1_daily_revenue_raw.csv"
 df.to_csv(out, index=False)
 print(f"Saved: {out} | rows={len(df)}")
+
+
+
+
