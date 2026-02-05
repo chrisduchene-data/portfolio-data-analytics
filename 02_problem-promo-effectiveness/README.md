@@ -1,3 +1,17 @@
+# Problem 02 — Promotional Effectiveness Analysis
+
+## Business Objective
+
+Marketing leadership needs to evaluate whether promotional spending is being allocated
+effectively across channels and campaigns.
+
+This analysis supports decisions on:
+
+- Budget reallocation
+- Channel prioritization
+- Campaign optimization
+- Revenue growth strategy
+
 # Promo Effectiveness Analysis
 
 ## 📌 Project Overview
@@ -88,5 +102,24 @@ A reallocation model was built to test shifting spend from lower-performing chan
 
 Scenarios tested:
 
-| Reallocation % | Projected Gain |
-|---------------|------------
+| Reallocation % | Projected Gain ($) |
+|---------------|--------------------|
+| 25%           | 5,538.96           |
+| 50%           | 11,077.91          |
+| 75%           | 16,616.87          |
+
+Increasing investment in top-performing channels shows strong potential
+for incremental revenue gains.
+
+---
+
+## 📌 Key Takeaways
+
+- App and Onsite channels consistently deliver the highest ROI
+- Campaign performance varies significantly by channel
+- Missing promotional days indicate operational data gaps
+- Strategic budget shifts could increase revenue by up to $16K+
+
+This analysis demonstrates the ability to translate raw promotional data
+into actionable business insights.
+
