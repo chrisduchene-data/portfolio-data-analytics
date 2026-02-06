@@ -1,6 +1,6 @@
 # Chris Duchene — Hospitality & Casino Data Analytics Portfolio
 
-This portfolio demonstrates how I turn messy operational and financial data into executive sready insights.
+This portfolio demonstrates how I turn messy operational and financial data into executive ready insights.
 
 ## Focus Areas
 - Revenue integrity (slots, tables, hotel, F&B)
