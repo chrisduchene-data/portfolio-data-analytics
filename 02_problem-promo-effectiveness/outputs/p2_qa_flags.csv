@@ -1,0 +1,18 @@
+promo_date,property,campaign,channel,promo_spend,redemptions,promo_revenue,is_duplicate_row,is_negative_spend
+2025-11-04,RW_NYC,VIP Reload,SMS,-1182.86,243,-3688.35,No,Yes
+2025-11-15,RW_NYC,Fall Bonus,Email,667.44,137,2268.9,Yes,No
+2025-11-15,RW_NYC,Fall Bonus,SMS,1496.72,221,5303.9,Yes,No
+2025-11-15,RW_NYC,Fall Bonus,App,2038.14,205,4695.34,Yes,No
+2025-11-15,RW_NYC,Fall Bonus,Onsite,2665.33,241,7222.89,Yes,No
+2025-11-15,RW_NYC,Holiday Boost,Email,819.53,157,1397.19,Yes,No
+2025-11-15,RW_NYC,Holiday Boost,SMS,1370.23,260,2889.29,Yes,No
+2025-11-15,RW_NYC,Holiday Boost,App,1673.83,243,5093.29,Yes,No
+2025-11-15,RW_NYC,Holiday Boost,Onsite,0.0,369,0.0,Yes,No
+2025-11-15,RW_NYC,VIP Reload,Email,763.57,121,1599.96,Yes,No
+2025-11-15,RW_NYC,VIP Reload,SMS,1123.93,84,2754.05,Yes,No
+2025-11-15,RW_NYC,VIP Reload,App,1228.31,306,3488.45,Yes,No
+2025-11-15,RW_NYC,VIP Reload,Onsite,419.85,217,1461.19,Yes,No
+2025-11-15,RW_NYC,Slots Frenzy,Email,1304.58,177,3153.53,Yes,No
+2025-11-15,RW_NYC,Slots Frenzy,SMS,553.71,99,1724.15,Yes,No
+2025-11-15,RW_NYC,Slots Frenzy,App,2353.23,256,6699.65,Yes,No
+2025-11-15,RW_NYC,Slots Frenzy,Onsite,2749.89,202,8164.0,Yes,No
