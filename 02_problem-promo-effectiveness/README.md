@@ -123,3 +123,33 @@ for incremental revenue gains.
 This analysis demonstrates the ability to translate raw promotional data
 into actionable business insights.
 
+### 💡 Budget Reallocation Analysis
+
+Reallocation scenarios were modeled to evaluate shifting budget from lower-performing channels to higher-performing ones.
+
+Key findings:
+
+- Onsite had the highest ROI (2.79)
+- Email had the lowest ROI (2.72)
+- Reallocating 25–50% of spend from Email toward Onsite improved overall efficiency
+
+Example scenario:
+
+- 25% reallocation: ~$78K–$88K per channel
+- 50% reallocation: ~$155K–$175K per channel
+
+This model demonstrates how performance-driven budget shifts can improve marketing ROI without increasing total spend.
+
+## 📌 Dashboard Insights (Power BI)
+
+The Power BI dashboard highlights key patterns in promotional performance across Q4 2025.
+
+Key observations include:
+
+- App and Onsite channels generated the highest overall ROI, indicating strong return on promotional spend.
+- Promotional revenue peaked in October and November, followed by a slight decline in December.
+- Promo spend and revenue remain closely aligned across channels, suggesting efficient budget allocation.
+- Email campaigns consistently underperformed relative to other channels, indicating potential optimization opportunities.
+
+These insights support data-driven decisions around channel prioritization and future promotional investments.
+
