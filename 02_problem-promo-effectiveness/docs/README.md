@@ -1,7 +1,7 @@
 # Problem 02 — Promotional Effectiveness Analysis
 ## 📊 Power BI Dashboard
 
-![Promo Effectiveness Dashboard](outputs/p2_promo_dashboard.png)
+![alt text](../outputs/p2_promo_dashboard.png)
 ## Business Objective
 
 Marketing leadership needs to evaluate whether promotional spending is being allocated
