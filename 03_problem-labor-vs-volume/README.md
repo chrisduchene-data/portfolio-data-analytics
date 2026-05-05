@@ -1,8 +1,3 @@
-![Dashboard](outputs/p3_dashboard_overview.png)
-
-![Scatter](outputs/p3_efficiency_vs_cost.png)
-
-
 # 📊 Labor Efficiency & Cost Analysis
 
 ## 🧠 Business Problem
