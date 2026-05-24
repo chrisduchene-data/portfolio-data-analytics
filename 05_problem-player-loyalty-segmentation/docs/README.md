@@ -2,9 +2,9 @@
 
 ## Business Problem
 
-Casino and hospitality organizations rely heavily on player loyalty programs to understand customer behavior, maximize revenue, and improve player retention. Leadership teams need visibility into which player segments generate the highest gaming value, how frequently players visit, and which geographic markets contribute the most revenue.
+Casino and hospitality organizations rely heavily on player loyalty programs to understand customer behavior, maximize gaming revenue, and improve player retention. Leadership teams need visibility into which player segments generate the highest value, how frequently players visit, and which geographic markets contribute the most revenue.
 
-This project simulates a player loyalty analytics environment using SQL, Python, and Power BI to analyze player value segmentation and behavioral trends.
+This project simulates a player loyalty analytics environment using SQL, Python, and Power BI to analyze customer segmentation and behavioral trends.
 
 ---
 
@@ -13,10 +13,20 @@ This project simulates a player loyalty analytics environment using SQL, Python,
 The objective of this project was to:
 
 - Analyze player loyalty tiers and revenue contribution
-- Identify behavioral patterns between visit frequency and gaming value
-- Compare player performance across geographic regions
-- Build an executive-style Power BI dashboard for operational and customer analytics reporting
+- Identify behavioral differences across player segments
+- Measure visit frequency versus gaming value
+- Evaluate geographic revenue distribution by state
+- Build an executive-level dashboard for operational decision-making
 
+---
+
+## Key Business Questions
+
+- Which loyalty tier generates the highest gaming revenue?
+- Which player segments visit most frequently?
+- Which geographic regions produce the strongest player value?
+- Is visit frequency correlated with gaming revenue?
+- How can leadership identify high-value VIP segments?
 ---
 
 ## Tools Used
@@ -34,22 +44,21 @@ The objective of this project was to:
 
 ## Dataset Overview
 
-The dataset contains simulated casino player activity including:
+The dataset simulates casino player loyalty activity and includes:
 
-- Player IDs
-- Loyalty tiers
-- State/region
-- Player visit frequency
-- Theoretical gaming win
-- Actual gaming win
+- Player ID
+- Loyalty Tier
+- State
+- Visit Frequency
+- Theoretical Win
+- Actual Win
+- Age Demographics
 
-Python was used to generate a realistic synthetic dataset for portfolio development and segmentation analysis.
+The synthetic dataset was generated using Python and loaded into PostgreSQL for SQL analysis and dashboard reporting.
 
 ---
 
 ## Key Metrics
-
-The dashboard tracks:
 
 - Total Players
 - Total Actual Win
@@ -60,44 +69,67 @@ The dashboard tracks:
 
 ## Dashboard Features
 
-### Executive KPI Cards
-High-level business metrics for player performance monitoring.
+### KPI Cards
+Executive summary metrics for player value and engagement.
 
-### Loyalty Tier Revenue Analysis
-Comparison of gaming revenue contribution by loyalty segment.
+### Revenue by Loyalty Tier
+Comparison of gaming revenue contribution across Bronze, Silver, Gold, and Platinum players.
 
-### Geographic Revenue Analysis
-Breakdown of actual gaming win by state.
+### Player Visits by Tier
+Analysis of customer engagement and visit frequency by loyalty segment.
 
-### Player Behavioral Segmentation
-Scatterplot visualization showing relationships between player visit frequency and gaming value.
+### Revenue by State
+Geographic comparison of player revenue contribution.
 
-### Interactive Filtering
-Dynamic state slicer allowing dashboard-level filtering and segmentation.
+### Player Value vs Visit Frequency Scatterplot
+Behavioral segmentation visual comparing player visit frequency against gaming value.
+
+### Interactive State Slicer
+Allows dashboard users to dynamically filter analytics by geographic market.
 
 ---
 
 ## Business Insights
 
-- Bronze tier players generated the highest overall gaming revenue due to player volume.
-- Higher loyalty tiers demonstrated more concentrated player value despite smaller populations.
-- Geographic analysis identified top-performing player regions contributing the largest gaming revenue.
-- Behavioral segmentation visuals revealed clusters of high-frequency and high-value player activity useful for retention strategy analysis.
+- Bronze tier players generated the highest total gaming revenue due to larger population size.
+- Higher loyalty tiers demonstrated strong average player value despite smaller customer counts.
+- Visit frequency showed a positive relationship with player revenue contribution.
+- Several geographic markets consistently outperformed others in gaming revenue generation.
+- Scatterplot analysis revealed high-value player clusters useful for VIP targeting strategies.
 
 ---
 
 ## Screenshots
 
-![Player Loyalty Dashboard](../outputs/p5_player_loyalty_dashboard.png)
+### Dashboard Overview
+
+![Dashboard Screenshot](../outputs/p5_player_loyalty_dashboard.png)
 
 ---
 
 ## Files Included
 
-- SQL table creation scripts
-- SQL segmentation analysis queries
-- Python dataset generation script
-- Raw CSV dataset
-- Power BI dashboard (.pbix)
-- Dashboard screenshot exports
-- Project documentation
+### SQL
+- `p5_create_table.sql`
+- `p5_loyalty_analysis.sql`
+
+### Python
+- `make_p5_dataset.py`
+
+### Power BI
+- `p5_player_loyalty_dashboard.pbix`
+
+### Dataset
+- `p5_player_loyalty_raw.csv`
+
+---
+
+## Project Skills Demonstrated
+
+- SQL aggregation and segmentation analysis
+- Data modeling and synthetic dataset generation
+- Power BI dashboard development
+- DAX measure creation
+- Business intelligence reporting
+- Data visualization and storytelling
+- GitHub project documentation
