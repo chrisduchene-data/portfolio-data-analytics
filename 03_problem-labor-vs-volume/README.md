@@ -1,89 +1,165 @@
-# 📊 Labor Efficiency & Cost Analysis
+# 📊 Project 3 — Labor Efficiency & Cost Analysis (Hospitality/Casino)
 
-## 🧠 Business Problem
+## Dashboard Preview
 
-Labor is one of the largest operational costs in a casino/hospitality environment. However, higher labor spend does not always translate to better performance.
-
-This analysis evaluates how labor is allocated across departments and whether that spend is generating efficient output.
+![Labor Efficiency Dashboard](outputs/p3_dashboard.png)
 
 ---
 
-## ❓ Key Questions
+## Executive Overview
+
+This project analyzes labor allocation across multiple casino departments to evaluate workforce efficiency, operational productivity, and labor cost management.
+
+Using Python, SQL, and Power BI, I built an end-to-end analytics workflow that transforms operational labor data into executive reporting designed to support staffing optimization and strategic resource allocation.
+
+The analysis demonstrates how labor cost alone is not an indicator of operational efficiency and highlights opportunities to improve workforce utilization across departments.
+
+---
+
+## Business Problem
+
+Labor represents one of the largest controllable operating expenses within hospitality and casino operations.
+
+Management needed to determine:
+
+- Which departments generate the highest operational workload
+- Whether labor spending is aligned with operational demand
+- Which departments utilize labor most efficiently
+- Where staffing optimization opportunities exist
+
+This project builds a repeatable analytics process for measuring labor efficiency and identifying actionable operational improvements.
+
+---
+
+## Business Questions
+
+This analysis answers several key operational questions:
 
 - Which department incurs the highest labor cost?
-- Which department handles the most operational volume?
-- Which department is most efficient (volume per labor hour)?
-- Are there opportunities to improve labor allocation?
+- Which department processes the greatest operational volume?
+- Which department produces the highest labor efficiency?
+- Does higher labor cost result in better operational performance?
+- Where can labor resources be optimized?
 
 ---
 
-## 📈 Dashboard Overview
+## Dashboard KPIs
 
-![Dashboard](outputs/p3_dashboard_overview.png)
+The executive dashboard tracks:
 
----
-
-## 📊 Key Metrics
-
-- **Total Labor Cost:** ~$1.25M  
-- **Total Volume:** ~530K  
-- **Average Efficiency:** ~11.15 volume per labor hour  
-
----
-
-## 🔍 Analysis & Insights
-
-### 1. Cost vs Volume
-
-- Slots generates the highest total volume (~135K)
-- Slots also has the highest labor cost (~$330K)
-
-👉 This indicates workload is a major driver of cost in this department
+- Total Labor Cost
+- Total Operational Volume
+- Labor Efficiency (Volume per Labor Hour)
+- Labor Cost by Department
+- Operational Volume by Department
+- Efficiency vs Cost Comparison
 
 ---
 
-### 2. Efficiency Comparison
+## Executive Summary
 
-- **F&B is the most efficient department (~11.5)**
-- Slots is the least efficient (~11.0)
+Using cleaned operational labor data, I developed an executive dashboard to compare labor spending against operational output across multiple casino departments.
 
-👉 Higher cost does not necessarily lead to higher efficiency
+The analysis showed that while the Slots department generated the highest operational volume, it also carried the highest labor cost without delivering the strongest efficiency.
 
----
+Food & Beverage achieved the highest labor efficiency while maintaining lower overall labor cost, suggesting stronger workforce utilization.
 
-### 3. Efficiency vs Cost (Key Insight)
-
-![Scatter](outputs/p3_efficiency_vs_cost.png)
-
-- F&B operates at **higher efficiency with lower cost**
-- Slots operates at **higher cost with lower efficiency**
-
-👉 This suggests an opportunity to optimize labor allocation in higher-cost areas
+These findings demonstrate that increasing labor expense alone does not necessarily improve operational productivity.
 
 ---
 
-## 🧰 Tools & Skills Used
+## Operational Efficiency Insights
 
-- **SQL (PostgreSQL)**
-  - Aggregations (SUM, AVG)
-  - GROUP BY analysis
-  - Performance metric calculations
+### Labor Cost vs Operational Volume
 
-- **Power BI**
-  - KPI Cards
-  - Bar Charts
-  - Scatter Plot (Efficiency vs Cost)
-  - Data modeling and DAX measures
-
-- **Data Analysis**
-  - Efficiency metrics (volume per hour)
-  - Cost vs performance evaluation
-  - Comparative department analysis
+- Slots generated the highest operational volume (~135K)
+- Slots also incurred the highest labor cost (~$330K)
+- Operational demand is the primary driver of labor expense
 
 ---
 
-## 🧠 Final Takeaway
+### Department Efficiency Comparison
 
-While Slots drives the highest total volume, it does so at the highest labor cost without delivering the best efficiency.
+- Food & Beverage achieved the highest labor efficiency (~11.15)
+- Slots produced the lowest labor efficiency (~11.0)
+- Higher labor spending did not produce higher productivity
 
-F&B demonstrates stronger labor utilization, indicating that similar efficiency strategies could potentially be applied across other departments to improve overall performance.
+---
+
+### Efficiency vs Cost Analysis
+
+The Efficiency vs Cost visualization clearly demonstrates:
+
+- Food & Beverage operates at higher efficiency with lower labor cost.
+- Slots operates at the highest labor cost with the lowest efficiency.
+- Hotel and Table Games maintain balanced performance between cost and productivity.
+
+These findings highlight opportunities for workforce optimization in higher-cost departments.
+
+---
+
+## Business Recommendations
+
+Based on the analysis:
+
+- Review staffing models within Slots operations
+- Evaluate workforce scheduling against operational demand
+- Benchmark Food & Beverage staffing practices across departments
+- Monitor labor efficiency as a recurring executive KPI
+- Prioritize labor optimization before increasing staffing levels
+
+These recommendations support improved workforce planning while controlling operational expenses.
+
+---
+
+## Financial Impact Estimate
+
+Improving labor efficiency by only 2–3% within the highest-cost department could significantly reduce annual operating expenses while maintaining current service levels.
+
+Executive dashboards that continuously monitor labor efficiency allow management to identify staffing opportunities before unnecessary labor costs accumulate.
+
+---
+
+## Technical Workflow
+
+Raw Labor Data
+
+↓
+
+Python (Data Preparation & Validation)
+
+↓
+
+SQL (Business Queries & Aggregations)
+
+↓
+
+Power BI (Executive Dashboard)
+
+↓
+
+Operational Recommendations
+
+---
+
+## Tools Used
+
+- Python (Pandas, NumPy)
+- PostgreSQL
+- SQL
+- Power BI Desktop
+- Power Query
+- DAX
+- Git
+- GitHub
+
+---
+
+## Deliverables
+
+- Python labor data generation pipeline
+- Cleaned operational dataset
+- SQL business analysis
+- Interactive Power BI dashboard
+- Labor efficiency case study
+- Executive recommendations
