@@ -6,7 +6,7 @@
 
 This project simulates a real-world revenue integrity engagement for a hospitality and casino operation. Using Python, SQL, Power BI, and Excel, I developed an end-to-end analytics workflow to validate daily revenue data, identify reporting exceptions, and deliver an executive dashboard that supports operational decision-making.
 
-The project demonstrates a complete analytics process—from raw data generation and validation to business reporting and actionable recommendations.
+The project demonstrates a complete analytics process from raw data generation and validation to business reporting and actionable recommendations.
 
 ---
 
