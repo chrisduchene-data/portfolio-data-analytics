@@ -1,157 +1,170 @@
-# Problem 02 — Promotional Effectiveness Analysis
-## 📊 Power BI Dashboard
+# 📈 Project 2 — Promotional Effectiveness Analysis
 
-![Promo Effectiveness Dashboard](outputs/p2_promo_dashboard.png)
-## Business Objective
-
-Marketing leadership needs to evaluate whether promotional spending is being allocated
-effectively across channels and campaigns.
-
-This analysis supports decisions on:
-
-- Budget reallocation
-- Channel prioritization
-- Campaign optimization
-- Revenue growth strategy
-
-# Promo Effectiveness Analysis
-
-## 📌 Project Overview
-This project analyzes casino promotional campaigns to evaluate marketing effectiveness across channels, campaigns, and properties.
-
-The goal is to understand:
-- Which campaigns generate the highest return
-- Which channels perform best
-- How budget reallocation could improve ROI
-
-This analysis simulates real-world marketing performance data and applies SQL-based analytics to support business decision making.
+![Promo Effectiveness Dashboard](outputs/p2_dashboard.png)
 
 ---
 
-## 📊 Dataset Description
-Source data contains daily promotional activity with the following fields:
+## Executive Overview
 
-- promo_date
-- property
-- campaign
-- channel
-- promo_spend
-- promo_revenue
-- redemptions
+This project analyzes promotional marketing performance across multiple casino properties using Python, SQL, PostgreSQL, and Power BI.
 
-The dataset includes intentional data quality issues such as missing days and inconsistent entries to simulate real operational environments.
+An end-to-end analytics workflow was developed to validate promotional data, evaluate marketing return on investment (ROI), identify the highest-performing channels, and provide executive recommendations for improving promotional spend.
+
+The project demonstrates a complete analytics process from data generation and validation to business reporting and actionable marketing insights.
 
 ---
 
-## ⚙️ Tools & Technologies
+## Business Problem
+
+Marketing departments invest significant promotional budgets across multiple channels but often lack visibility into which campaigns generate the strongest return.
+
+Without accurate ROI reporting, promotional spending can become inefficient, resulting in missed revenue opportunities and poor budget allocation.
+
+This project builds a repeatable promotional analytics process that validates marketing data before delivering executive reporting.
+
+---
+
+## Business Questions
+
+This analysis answers several key business questions:
+
+- Which marketing channels generate the highest ROI?
+- Which campaigns produce the strongest promotional revenue?
+- Which promotional channels underperform?
+- Are promotional reporting dates complete?
+- How can promotional budgets be optimized?
+
+---
+
+## Dashboard KPIs
+
+The executive dashboard tracks:
+
+- Total Promotional Spend
+- Total Promotional Revenue
+- Overall ROI
+- Total Redemptions
+- ROI by Channel
+- Promotional Revenue Trend
+- Promotional Spend vs Revenue
+
+---
+
+## Executive Summary
+
+After validating promotional data, I developed an executive Power BI dashboard that measures marketing efficiency across multiple promotional channels.
+
+The analysis identified Mobile App and Onsite campaigns as the highest-performing channels while Email campaigns consistently generated the lowest ROI.
+
+Missing promotional reporting days were detected and validated before dashboard development to improve reporting accuracy.
+
+With clean data, leadership can confidently evaluate marketing performance, prioritize promotional investments, and monitor campaign effectiveness over time.
+
+---
+
+## Marketing Performance Insights
+
+Analysis of promotional activity revealed several key findings.
+
+- Mobile App and Onsite campaigns generated the highest ROI.
+- Email campaigns consistently produced the lowest return.
+- Promotional spend remained closely aligned with promotional revenue.
+- Promotional revenue remained relatively stable throughout Q4.
+- Marketing performance varied significantly by channel.
+
+These findings provide management with clear opportunities to optimize future promotional spending.
+
+---
+
+## Data Validation Findings
+
+Several data quality issues were identified prior to analysis.
+
+Validation included:
+
+- Missing promotional date detection
+- Promotional revenue verification
+- Campaign reporting validation
+- Executive summary table creation
+
+Validation Results:
+
+- 245 missing promotional reporting days detected
+- Promotional dataset successfully validated
+- Executive reporting tables generated
+
+---
+
+## Business Recommendations
+
+Based on the analysis, the following recommendations were identified:
+
+- Increase investment toward Mobile App campaigns.
+- Continue prioritizing Onsite promotions.
+- Reevaluate Email marketing strategy.
+- Implement recurring promotional data validation.
+- Continue monitoring marketing ROI through executive dashboards.
+
+---
+
+## Financial Impact Estimate
+
+Budget reallocation scenarios demonstrated measurable opportunities for improving promotional performance.
+
+Estimated revenue improvement:
+
+| Budget Reallocation | Estimated Additional Revenue |
+|--------------------|-----------------------------:|
+| 25% | +$5,539 |
+| 50% | +$11,078 |
+| 75% | +$16,617 |
+
+Strategic reallocation toward higher-performing channels could significantly improve promotional ROI without increasing total marketing spend.
+
+---
+
+## Technical Workflow
+
+This project followed the same structured analytics workflow used throughout the portfolio.
+
+Raw Marketing Data
+
+↓
+
+Python Data Generation & Validation
+
+↓
+
+SQL Business Analysis
+
+↓
+
+Power BI Executive Dashboard
+
+↓
+
+Business Recommendations
+
+---
+
+## Tools Used
+
+- Python
 - PostgreSQL
-- DBeaver
-- SQL (CTEs, Aggregations, Joins)
-- Python (Data Generation)
-- GitHub (Version Control)
+- SQL
+- Power BI Desktop
+- DAX
+- Power Query
+- Git
+- GitHub
 
 ---
 
-## 🧹 Data Preparation & Quality Checks
+## Deliverables
 
-### Missing Date Validation
-A calendar table was generated using `generate_series` to identify missing promotional days.
-
-Result:
-- 245 missing promo days detected
-
-### Row Validation
-Row counts and date ranges were verified to ensure data integrity before analysis.
-
----
-
-## 📈 Promo Performance Summary
-
-Promotional performance was summarized by:
-
-- Property
-- Campaign
-- Channel
-
-Metrics calculated:
-- Total Spend
-- Total Revenue
-- ROI
-- Average Redemptions
-
-A summary table (`p2_promo_summary`) was created to support performance evaluation.
-
----
-
-## 🏆 Channel Performance Analysis
-
-Channel-level performance:
-
-| Channel | ROI |
-|---------|-----|
-| App     | 2.79 |
-| Onsite  | 2.79 |
-| SMS     | 2.77 |
-| Email   | 2.71 |
-
-Mobile App and Onsite campaigns delivered the highest returns.
-
----
-
-## 💡 Budget Reallocation Simulation
-
-A reallocation model was built to test shifting spend from lower-performing channels to higher-performing ones.
-
-Scenarios tested:
-
-| Reallocation % | Projected Gain ($) |
-|---------------|--------------------|
-| 25%           | 5,538.96           |
-| 50%           | 11,077.91          |
-| 75%           | 16,616.87          |
-
-Increasing investment in top-performing channels shows strong potential
-for incremental revenue gains.
-
----
-
-## 📌 Key Takeaways
-
-- App and Onsite channels consistently deliver the highest ROI
-- Campaign performance varies significantly by channel
-- Missing promotional days indicate operational data gaps
-- Strategic budget shifts could increase revenue by up to $16K+
-
-This analysis demonstrates the ability to translate raw promotional data
-into actionable business insights.
-
-### 💡 Budget Reallocation Analysis
-
-Reallocation scenarios were modeled to evaluate shifting budget from lower-performing channels to higher-performing ones.
-
-Key findings:
-
-- Onsite had the highest ROI (2.79)
-- Email had the lowest ROI (2.72)
-- Reallocating 25–50% of spend from Email toward Onsite improved overall efficiency
-
-Example scenario:
-
-- 25% reallocation: ~$78K–$88K per channel
-- 50% reallocation: ~$155K–$175K per channel
-
-This model demonstrates how performance-driven budget shifts can improve marketing ROI without increasing total spend.
-
-## 📌 Dashboard Insights (Power BI)
-
-The Power BI dashboard highlights key patterns in promotional performance across Q4 2025.
-
-Key observations include:
-
-- App and Onsite channels generated the highest overall ROI, indicating strong return on promotional spend.
-- Promotional revenue peaked in October and November, followed by a slight decline in December.
-- Promo spend and revenue remain closely aligned across channels, suggesting efficient budget allocation.
-- Email campaigns consistently underperformed relative to other channels, indicating potential optimization opportunities.
-
-These insights support data-driven decisions around channel prioritization and future promotional investments.
-
+- Python promotional dataset generation
+- Promotional data validation
+- SQL marketing analysis
+- Executive Power BI dashboard
+- ROI analysis
+- Budget optimization recommendations
