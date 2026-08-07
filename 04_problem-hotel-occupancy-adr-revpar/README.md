@@ -1,95 +1,162 @@
-# 🏨 Hotel Occupancy, ADR & RevPAR Analysis
+# 🏨 Project 4 — Hotel Occupancy, ADR & RevPAR Analysis
 
-## 🧠 Business Problem
+## Dashboard Preview
 
-Hotel operators must balance occupancy, pricing strategy, and revenue generation to maximize profitability.
+![Hotel Performance Dashboard](outputs/p4_dashboard_overview.png)
 
-This project analyzes hotel performance using key hospitality KPIs including:
-- Occupancy Rate
-- ADR (Average Daily Rate)
-- RevPAR (Revenue Per Available Room)
+---
+
+## Executive Overview
+
+This project analyzes hotel performance across multiple properties using key hospitality metrics including Occupancy Rate, Average Daily Rate (ADR), Revenue per Available Room (RevPAR), and Total Revenue.
+
+Using Python, SQL, PostgreSQL, and Power BI, I developed an end-to-end analytics workflow that transforms operational hotel data into executive reporting designed to support revenue management, pricing strategy, and operational decision-making.
+
+The project demonstrates how industry-standard hospitality KPIs can be combined into a single executive dashboard to evaluate hotel performance and identify opportunities for revenue growth.
+
+---
+
+## Business Problem
+
+Hotel operators rely on occupancy, pricing, and revenue metrics to evaluate financial performance and operational efficiency.
+
+Management needed to determine:
+
+- Which hotels maintain the strongest occupancy rates
+- How ADR impacts overall revenue performance
+- Which properties generate the highest RevPAR
+- How hotel revenue trends change over time
+- Where operational improvements could increase profitability
+
+This project builds a repeatable analytics process for monitoring hotel performance using industry-standard hospitality KPIs.
+
+---
+
+## Business Questions
+
+This analysis answers several key business questions:
+
+- Which hotel has the highest occupancy?
+- Which hotel generates the strongest ADR?
+- Which hotel produces the highest RevPAR?
+- How does revenue trend throughout the reporting period?
+- Which operational opportunities could improve hotel performance?
+
+---
+
+## Dashboard KPIs
+
+The executive dashboard tracks:
+
 - Total Revenue
-
-The goal is to identify which hotel properties generate the strongest operational and financial performance.
-
----
-
-## ❓ Key Questions
-
-- Which hotel generates the highest total revenue?
-- Which property has the strongest occupancy rate?
-- How do ADR and RevPAR compare across hotels?
-- How does revenue trend over time?
-- Which hotel demonstrates the strongest revenue efficiency?
+- Occupancy Rate
+- Average Daily Rate (ADR)
+- Revenue per Available Room (RevPAR)
+- Revenue Growth %
+- Occupancy by Hotel
+- ADR vs RevPAR Comparison
+- Revenue Trend Over Time
 
 ---
 
-## 🛠️ Tools Used
+## Executive Summary
 
+After validating hotel operational data, I developed an executive Power BI dashboard that provides leadership with a consolidated view of hotel performance across occupancy, pricing strategy, and revenue generation.
+
+The analysis demonstrated consistently strong occupancy levels across all hotel properties while maintaining stable ADR performance.
+
+Revenue trends remained healthy throughout the reporting period, supporting effective forecasting and revenue management decisions.
+
+The resulting dashboard enables management to compare hotel performance, evaluate pricing strategy, and monitor operational success through industry-standard hospitality KPIs.
+
+---
+
+## Hotel Performance Insights
+
+### Occupancy Performance
+
+- Hotel B maintained the highest occupancy rate.
+- Occupancy remained consistently above 75% across all hotels.
+- Strong occupancy contributed to stable revenue generation.
+
+---
+
+### ADR & RevPAR Performance
+
+- ADR remained relatively consistent across hotel properties.
+- RevPAR reflected the combined impact of pricing strategy and occupancy.
+- Hotels with stronger occupancy maintained higher overall revenue performance.
+
+---
+
+### Revenue Trend Analysis
+
+Revenue remained relatively stable throughout the reporting period with expected day-to-day operational variation.
+
+The dashboard provides management with an effective tool for monitoring revenue performance and identifying long-term operational trends.
+
+---
+
+## Business Recommendations
+
+Based on the analysis:
+
+- Continue monitoring Occupancy Rate and ADR together.
+- Benchmark high-performing hotels against lower-performing properties.
+- Optimize pricing during lower-demand periods.
+- Continue tracking RevPAR as a primary executive KPI.
+- Utilize dashboard reporting to support ongoing revenue management decisions.
+
+---
+
+## Financial Impact Estimate
+
+Even modest improvements in occupancy or ADR can significantly increase annual hotel revenue when applied across multiple properties.
+
+Executive dashboards that continuously monitor occupancy, ADR, RevPAR, and revenue trends provide management with actionable insights that support pricing optimization and long-term profitability.
+
+---
+
+## Technical Workflow
+
+Raw Hotel Data
+
+↓
+
+Python (Data Preparation & Validation)
+
+↓
+
+SQL (Business Queries & Aggregations)
+
+↓
+
+Power BI (Executive Dashboard)
+
+↓
+
+Revenue Management Recommendations
+
+---
+
+## Tools Used
+
+- Python (Pandas, NumPy)
 - PostgreSQL
 - SQL
-- Power BI
+- Power BI Desktop
 - DAX
-- Python
+- Power Query
+- Git
 - GitHub
 
 ---
 
-## 📊 Dashboard Overview
+## Deliverables
 
-![Dashboard](outputs/p4_dashboard_overview.png)
-
----
-
-## 📈 Revenue Trend Analysis
-
-![Revenue Trend](outputs/p4_revenue_trend.png)
-
----
-
-## 📉 ADR vs RevPAR Comparison
-
-![ADR vs RevPAR](outputs/p4_adr_vs_revpar.png)
-
----
-
-## 📌 Key Insights
-
-- Hotel C generated the highest total revenue.
-- Hotel B achieved the highest occupancy rate.
-- ADR and RevPAR trends revealed pricing efficiency differences between hotels.
-- Revenue trends highlighted operational fluctuations across the reporting period.
-- The dashboard enables interactive hotel-level performance analysis using slicers.
-
----
-
-## 🧮 Example SQL Analysis
-
-```sql
-SELECT
-    hotel,
-    ROUND(AVG(rooms_sold::numeric / rooms_available) * 100, 2) AS occupancy_rate,
-    ROUND(AVG(average_daily_rate), 2) AS avg_adr,
-    ROUND(AVG(room_revenue / rooms_available), 2) AS revpar,
-    ROUND(SUM(room_revenue), 2) AS total_revenue
-FROM p4_hotel_raw
-GROUP BY hotel
-ORDER BY total_revenue DESC;
-```
-
----
-
-## 📁 Project Structure
-
-```text
-04_problem-hotel-occupancy-adr-revpar/
-│
-├── a_sql/
-├── b_powerbi/
-├── c_python/
-├── data_raw/
-├── data_clean/
-├── docs/
-├── outputs/
-└── README.md
-```
+- Python hotel dataset generation
+- Cleaned operational dataset
+- SQL business analysis
+- Interactive Power BI dashboard
+- Hotel performance case study
+- Executive recommendations
