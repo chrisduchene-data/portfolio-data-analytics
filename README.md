@@ -6,11 +6,11 @@
 
 ---
 
-Welcome to my data analytics portfolio.
+I am a Financial Analyst and Business Intelligence professional focused on transforming operational data into actionable business insights.
 
-This repository showcases business-focused analytics projects built using SQL, Power BI, Python, PostgreSQL, and Excel. Each project demonstrates an end-to-end analytics workflow from raw data generation and cleaning to SQL analysis, interactive Power BI dashboards, and executive-level business recommendations.
+My work combines SQL, Python, Power BI, and PostgreSQL to solve real-world business problems involving revenue performance, customer behavior, operational efficiency, and executive reporting.
 
-The portfolio is inspired by real-world hospitality and casino operations, focusing on revenue integrity, promotional effectiveness, labor efficiency, hotel performance, and customer loyalty analytics.
+Every project in this portfolio follows an end-to-end analytics workflow that mirrors professional analytics environments.
 
 ---
 
@@ -31,10 +31,24 @@ The portfolio is inspired by real-world hospitality and casino operations, focus
 
 ---
 
+## Certifications
+
+Microsoft PL-300 Power BI Data Analyst
+CompTIA Security+
+CompTIA CySA+
+CompTIA Network+
+CompTIA A+
+
+---
+
 # Featured Projects
 ---
 
 ## 📊 Project 1 — Revenue Integrity Analysis
+
+## 📊 Dashboard Preview
+
+![Revenue Integrity Dashboard](01_problem-revenue-integrity/outputs/p1_dashboard.png)
 
 **Business Problem**
 
@@ -52,11 +66,15 @@ Power BI • SQL • Python • PostgreSQL
 - Financial reporting
 - Exception analysis
 
-📁 **Folder:** `01_problem-revenue-integrity`
+📂 **[View Project 1 →](01_problem-revenue-integrity/)**
 
 ---
 
 ## 🎯 Project 2 — Promotional Effectiveness Analysis
+
+## 📊 Dashboard Preview
+
+![Promotional Effectiveness Dashboard](02_problem-promo-effectiveness/outputs/p2_dashboard.png)
 
 **Business Problem**
 
@@ -73,11 +91,15 @@ Power BI • SQL • Python • PostgreSQL
 - Campaign performance
 - Executive dashboard reporting
 
-📁 **Folder:** `02_problem-promo-effectiveness`
+📂 **[View Project 2 →](02_problem-promo-effectiveness/)**
 
 ---
 
 ## 👥 Project 3 — Labor Efficiency & Cost Analysis
+
+## 📊 Dashboard Preview
+
+![Labor Efficiency Dashboard](03_problem-labor-vs-volume/outputs/p3_dashboard_overview.png)
 
 **Business Problem**
 
@@ -94,11 +116,15 @@ Power BI • SQL • Python • PostgreSQL
 - Operational KPI reporting
 - Trend analysis
 
-📁 **Folder:** `03_problem-labor-vs-volume`
+📂 **[View Project 3 →](03_problem-labor-vs-volume/)**
 
 ---
 
 ## 🏨 Project 4 — Hotel Occupancy, ADR & RevPAR
+
+## 📊 Dashboard Preview
+
+![Hotel Occupancy Dashboard](04_problem-hotel-occupancy-adr-revpar/outputs/p4_dashboard_overview.png)
 
 **Business Problem**
 
@@ -115,11 +141,16 @@ Power BI • SQL • Python • PostgreSQL
 - Occupancy analysis
 - Executive dashboard development
 
-📁 **Folder:** `04_problem-hotel-occupancy-adr-revpar`
+
+📂 **[View Project 4 →](04_problem-hotel-occupancy-adr-revpar/)**
 
 ---
 
 ## 🎰 Project 5 — Player Loyalty Segmentation
+
+## 📊 Dashboard Preview
+
+![Player Loyalty Dashboard](05_problem-player-loyalty-segmentation/outputs/p5_player_loyalty_dashboard.png)
 
 **Business Problem**
 
@@ -136,7 +167,9 @@ Power BI • SQL • Python • PostgreSQL
 - Loyalty analytics
 - Data visualization
 
-📁 **Folder:** `05_problem-player-loyalty-segmentation`
+
+📂 **[View Project 5 →](05_problem-player-loyalty-segmentation/)**
+
 ---
 
 # Repository Structure
@@ -180,4 +213,4 @@ Business Recommendations
 ## Connect With Me
 
 - GitHub: https://github.com/chrisduchene-data
-- LinkedIn: *(Add your LinkedIn profile URL here)*
+- LinkedIn: https://www.linkedin.com/in/duch-cmd/
