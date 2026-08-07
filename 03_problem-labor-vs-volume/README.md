@@ -2,7 +2,7 @@
 
 ## Dashboard Preview
 
-![Labor Efficiency Dashboard](outputs/p3_dashboard.png)
+![Labor Efficiency Dashboard](outputs/p3_dashboard_overview.png)
 
 ---
 
