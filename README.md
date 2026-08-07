@@ -8,7 +8,7 @@
 
 Welcome to my data analytics portfolio.
 
-This repository showcases business-focused analytics projects built using SQL, Power BI, Python, PostgreSQL, and Excel. Each project demonstrates an end-to-end analytics workflow—from raw data generation and cleaning to SQL analysis, interactive Power BI dashboards, and executive-level business recommendations.
+This repository showcases business-focused analytics projects built using SQL, Power BI, Python, PostgreSQL, and Excel. Each project demonstrates an end-to-end analytics workflow from raw data generation and cleaning to SQL analysis, interactive Power BI dashboards, and executive-level business recommendations.
 
 The portfolio is inspired by real-world hospitality and casino operations, focusing on revenue integrity, promotional effectiveness, labor efficiency, hotel performance, and customer loyalty analytics.
 
