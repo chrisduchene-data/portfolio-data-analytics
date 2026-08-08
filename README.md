@@ -2,19 +2,34 @@
 
 ## Financial Analyst | Business Intelligence | Power BI | SQL | Python
 
-[About](#about) • [Technical Skills](#technical-skills) • [Featured Projects](#featured-projects) • [Repository Structure](#repository-structure)
+[About](#about) • [Core-Technical-Skills](#core-technical-skills) • [Featured-Projects](#featured-projects) • [Repository-Structure](#repository-structure) • [Certifications](#certifications) • [Connect-With-Me](#connect-with-me)
 
 ---
+
+# About
 
 I am a Financial Analyst and Business Intelligence professional focused on transforming operational data into actionable business insights.
 
-My work combines SQL, Python, Power BI, and PostgreSQL to solve real-world business problems involving revenue performance, customer behavior, operational efficiency, and executive reporting.
+This portfolio showcases five end-to-end analytics projects built using Python, SQL, PostgreSQL, Power BI, and Excel. Each project follows a complete analytics workflow from data generation and validation through executive dashboard development and business recommendations.
 
-Every project in this portfolio follows an end-to-end analytics workflow that mirrors professional analytics environments.
+The projects are inspired by realistic hospitality and casino business scenarios involving revenue integrity, promotional effectiveness, labor efficiency, hotel performance, and customer loyalty analytics.
 
 ---
 
-# Technical Skills
+# Portfolio at a Glance
+
+- 5 End-to-End Business Analytics Projects
+- 5 Interactive Power BI Dashboards
+- Python Data Generation & Validation
+- PostgreSQL Database Development
+- SQL Business Analysis
+- Executive KPI Reporting
+- Hospitality & Casino Analytics
+- Business Intelligence Case Studies
+
+---
+
+# Core Technical Skills
 
 - Power BI
 - SQL
@@ -31,22 +46,11 @@ Every project in this portfolio follows an end-to-end analytics workflow that mi
 
 ---
 
-## Certifications
-
-Microsoft PL-300 Power BI Data Analyst
-CompTIA Security+
-CompTIA CySA+
-CompTIA Network+
-CompTIA A+
-
----
-
 # Featured Projects
+
 ---
 
-## 📊 Project 1 — Revenue Integrity Analysis
-
-## 📊 Dashboard Preview
+## 📊 Project 1 | Revenue Integrity & Performance Analysis
 
 ![Revenue Integrity Dashboard](01_problem-revenue-integrity/outputs/p1_dashboard.png)
 
@@ -54,101 +58,92 @@ CompTIA A+
 
 Validate daily casino revenue while identifying duplicate transactions, missing reporting days, and reconciliation issues.
 
-**Tools Used**
+### Tools Used
 
 Power BI • SQL • Python • PostgreSQL
 
-**Key Skills Demonstrated**
+### Key Skills Demonstrated
 
-- Revenue reconciliation
-- Data validation
-- KPI dashboard design
-- Financial reporting
-- Exception analysis
+- Revenue Reconciliation
+- Data Validation
+- KPI Dashboard Development
+- Financial Reporting
+- Exception Analysis
 
 📂 **[View Project 1 →](01_problem-revenue-integrity/)**
 
 ---
 
-## 🎯 Project 2 — Promotional Effectiveness Analysis
-
-## 📊 Dashboard Preview
+## 📈 Project 2 | Promotional Effectiveness Analysis
 
 ![Promotional Effectiveness Dashboard](02_problem-promo-effectiveness/outputs/p2_dashboard.png)
 
 **Business Problem**
 
-Evaluate promotional campaigns to determine which marketing efforts generate the highest return on investment.
+Evaluate promotional campaigns to identify the highest performing marketing channels, measure ROI, and support strategic budget allocation.
 
-**Tools Used**
+### Tools Used
 
 Power BI • SQL • Python • PostgreSQL
 
-**Key Skills Demonstrated**
+### Key Skills Demonstrated
 
-- Marketing analytics
-- ROI analysis
-- Campaign performance
-- Executive dashboard reporting
+- Marketing Analytics
+- ROI Analysis
+- Campaign Performance
+- Executive Dashboard Development
 
 📂 **[View Project 2 →](02_problem-promo-effectiveness/)**
 
 ---
 
-## 👥 Project 3 — Labor Efficiency & Cost Analysis
-
-## 📊 Dashboard Preview
+## 📊 Project 3 | Labor Efficiency & Cost Analysis
 
 ![Labor Efficiency Dashboard](03_problem-labor-vs-volume/outputs/p3_dashboard_overview.png)
 
 **Business Problem**
 
-Analyze staffing efficiency by comparing labor costs against operational volume to identify opportunities for improved productivity.
+Analyze labor cost and operational volume to identify workforce efficiency and support staffing optimization decisions.
 
-**Tools Used**
+### Tools Used
 
 Power BI • SQL • Python • PostgreSQL
 
-**Key Skills Demonstrated**
+### Key Skills Demonstrated
 
-- Workforce analytics
-- Labor cost optimization
-- Operational KPI reporting
-- Trend analysis
+- Workforce Analytics
+- Labor Cost Optimization
+- Operational KPI Reporting
+- Productivity Analysis
 
 📂 **[View Project 3 →](03_problem-labor-vs-volume/)**
 
 ---
 
-## 🏨 Project 4 — Hotel Occupancy, ADR & RevPAR
+## 🏨 Project 4 | Hotel Occupancy, ADR & RevPAR Analysis
 
-## 📊 Dashboard Preview
-
-![Hotel Occupancy Dashboard](04_problem-hotel-occupancy-adr-revpar/outputs/p4_dashboard_overview.png)
+![Hotel Performance Dashboard](04_problem-hotel-occupancy-adr-revpar/outputs/p4_dashboard_overview.png)
 
 **Business Problem**
 
-Evaluate hotel performance using occupancy rate, Average Daily Rate (ADR), RevPAR, and revenue trends to support operational decision-making.
+Evaluate hotel performance using Occupancy Rate, Average Daily Rate, RevPAR, and revenue trends to support revenue management decisions.
 
-**Tools Used**
+### Tools Used
 
 Power BI • SQL • Python • PostgreSQL
 
-**Key Skills Demonstrated**
+### Key Skills Demonstrated
 
-- Hospitality analytics
-- Revenue management
-- Occupancy analysis
-- Executive dashboard development
-
+- Hospitality Analytics
+- Revenue Management
+- Performance Analysis
+- Executive Dashboard Development
 
 📂 **[View Project 4 →](04_problem-hotel-occupancy-adr-revpar/)**
 
 ---
 
-## 🎰 Project 5 — Player Loyalty Segmentation
-
-## 📊 Dashboard Preview
+## 🎰 Project 5 | Player Loyalty Segmentation Analysis
 
 ![Player Loyalty Dashboard](05_problem-player-loyalty-segmentation/outputs/p5_player_loyalty_dashboard.png)
 
@@ -156,17 +151,16 @@ Power BI • SQL • Python • PostgreSQL
 
 Analyze player loyalty behavior to identify high-value customer segments and support data-driven marketing strategies.
 
-**Tools Used**
+### Tools Used
 
 Power BI • SQL • Python • PostgreSQL
 
-**Key Skills Demonstrated**
+### Key Skills Demonstrated
 
-- Customer segmentation
-- Business intelligence
-- Loyalty analytics
-- Data visualization
-
+- Customer Segmentation
+- Loyalty Analytics
+- Business Intelligence
+- Data Visualization
 
 📂 **[View Project 5 →](05_problem-player-loyalty-segmentation/)**
 
@@ -177,6 +171,7 @@ Power BI • SQL • Python • PostgreSQL
 ```text
 portfolio-data-analytics
 │
+├── README.md
 ├── 01_problem-revenue-integrity
 ├── 02_problem-promo-effectiveness
 ├── 03_problem-labor-vs-volume
@@ -188,29 +183,50 @@ portfolio-data-analytics
 
 # Analytics Workflow
 
-Every project follows the same professional workflow:
+Every project follows the same structured analytics process.
 
-Raw Data
-
-↓
-
-Python (Data Generation & Cleaning)
+📥 Raw Data
 
 ↓
 
-SQL (Business Queries)
+🐍 Python Data Generation & Validation
 
 ↓
 
-Power BI (Executive Dashboard)
+🗄 SQL Business Analysis
 
 ↓
 
-Business Recommendations
+📊 Power BI Executive Dashboard
+
+↓
+
+💼 Business Recommendations
 
 ---
 
-## Connect With Me
+# Certifications
 
-- GitHub: https://github.com/chrisduchene-data
-- LinkedIn: https://www.linkedin.com/in/duch-cmd/
+- Microsoft Certified: Power BI Data Analyst Associate (PL-300)
+- CompTIA CySA+
+- CompTIA Security+
+- CompTIA Network+
+- CompTIA A+
+
+---
+
+# Connect With Me
+
+**GitHub**
+
+https://github.com/chrisduchene-data
+
+**LinkedIn**
+
+https://www.linkedin.com/in/duch-cmd/
+
+---
+
+Thank you for taking the time to review my portfolio.
+
+I am actively seeking opportunities in Financial Analysis, Business Intelligence, and Data Analytics where I can apply technical skills and business insight to help organizations make better decisions through data.
